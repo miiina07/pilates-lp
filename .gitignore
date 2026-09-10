@@ -1,0 +1,8 @@
+# AI tooling / local skills
+.agents/
+.claude/
+.hallmark/
+skills-lock.json
+
+# OS
+.DS_Store

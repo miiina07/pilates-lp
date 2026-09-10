@@ -1,0 +1,63 @@
+/* Hallmark · tokens — OB PILATES LP (v2 · 価格表準拠のモノクロ)
+ * paper: warm white · ink: charcoal · chips: light grey · display: Shippori Mincho · body: Zen Kaku Gothic New · EN: Cormorant Garamond
+ */
+:root {
+  /* ─ colour ─ */
+  --color-paper:     oklch(98% 0.004 95);    /* 紙 */
+  --color-paper-2:   oklch(95.6% 0.005 95);  /* 薄グレーの帯 */
+  --color-chip:      oklch(92.5% 0.004 95);  /* ラベルチップ背景 */
+  --color-rule:      oklch(87% 0.005 95);    /* ヘアライン罫 */
+  --color-rule-dot:  oklch(70% 0.006 95);    /* 点線罫 */
+  --color-soft:      oklch(55% 0.01 95);     /* 装飾線・番号 */
+  --color-neutral:   oklch(40% 0.01 85);     /* 補助テキスト */
+  --color-ink:       oklch(24% 0.01 80);     /* 本文・見出し */
+  --color-accent:    oklch(28% 0.012 80);    /* ボタン・リンク(チャコール) */
+  --color-focus:     oklch(45% 0.13 258);
+
+  /* ─ type ─ */
+  /* display = 和文明朝(見出し・価格) / body = 和文ゴシック / outlier = 欧文セリフ(英字見出し・ラベル・署名) */
+  --font-display: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
+  --font-body: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", sans-serif;
+  --font-outlier: "Cormorant Garamond", "Shippori Mincho", serif;
+
+  --text-xs:   0.75rem;
+  --text-sm:   0.85rem;
+  --text-body: 0.95rem;
+  --text-base: 1rem;
+  --text-md:   1.25rem;
+  --text-lg:   1.5625rem;
+  --text-xl:   1.953rem;
+  --text-2xl:  2.441rem;
+  --text-display: clamp(2rem, 4.5vw + 0.6rem, 3.3rem);
+  --text-head-en: clamp(2.1rem, 2.5vw + 1.1rem, 2.9rem);
+
+  /* ─ space (4pt scale) ─ */
+  --space-2xs: 0.25rem;
+  --space-xs:  0.5rem;
+  --space-sm:  0.75rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2.5rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+  --space-4xl: 9rem;
+
+  /* ─ motion ─ */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-micro: 120ms;
+  --dur-short: 220ms;
+  --dur-long: 420ms;
+
+  /* ─ layout ─ */
+  --page-gutter: clamp(1.25rem, 5vw, 4rem);
+  --page-max: 68rem;
+  --rule-hairline: 1px solid var(--color-rule);
+  --rule-dotted: 1px dotted var(--color-rule-dot);
+
+  /* ─ z ─ */
+  --z-base: 1;
+  --z-raised: 10;
+  --z-sticky: 200;
+}
