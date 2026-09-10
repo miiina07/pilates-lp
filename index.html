@@ -8,7 +8,7 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23413d37' stroke-width='1.5'/%3E%3Ccircle cx='16' cy='16' r='2.4' fill='%23413d37'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500&family=Shippori+Mincho:wght@500;600&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;1,400&family=Shippori+Mincho:wght@500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="tokens.css" />
   <link rel="stylesheet" href="style.css" />
   <script src="main.js" defer></script>
@@ -43,7 +43,7 @@
         </div>
       </div>
       <figure class="photo hero__photo enter" style="--i:1">
-        <img src="img/studio.jpg" alt="OB PILATESのスタジオ内観 — 窓からの光が入る部屋にリフォーマーとマット" width="1350" height="1800" fetchpriority="high" decoding="async" />
+        <img src="img/studio.jpg" alt="OB PILATESのスタジオ内観 — 窓からの光が入る部屋にリフォーマーとマット" width="1477" height="1108" fetchpriority="high" decoding="async" draggable="false" oncontextmenu="return false" onDragStart="return false" />
         <figcaption lang="en">Private Pilates Studio</figcaption>
       </figure>
     </section>
@@ -52,7 +52,7 @@
     <section class="section" id="concept" aria-labelledby="concept-title">
       <div class="wrap diptych">
         <figure class="photo reveal">
-          <img src="img/reformer.jpg" alt="朝の光が差し込むスタジオの木製リフォーマー" width="1050" height="1400" loading="lazy" decoding="async" />
+          <img src="img/reformer.jpg" alt="朝の光が差し込むスタジオの木製リフォーマー" width="1448" height="1086" loading="lazy" decoding="async" draggable="false" oncontextmenu="return false" onDragStart="return false" />
         </figure>
         <div>
           <header class="head reveal">
@@ -221,7 +221,7 @@
           </div>
         </div>
         <figure class="photo reveal">
-          <img src="img/minami.jpg" alt="リフォーマーに座るインストラクターのMinami" width="1050" height="1400" loading="lazy" decoding="async" />
+          <img src="img/minami.jpg" alt="リフォーマーに座るインストラクターのMinami" width="1050" height="1400" loading="lazy" decoding="async" draggable="false" oncontextmenu="return false" onDragStart="return false" />
         </figure>
       </div>
     </section>
@@ -275,7 +275,7 @@
               </button>
               <div class="faq-item__a">
                 <div class="faq-item__a-inner">
-                  <p>前日までにご連絡いただければ可能です。当日の変更は、まずはLINEでご相談ください。</p>
+                  <p>前日19時までにご連絡いただければ変更が可能です。それ以降は原則一回分チケット消化となります。</p>
                 </div>
               </div>
             </div>
@@ -287,6 +287,28 @@
               <div class="faq-item__a">
                 <div class="faq-item__a-inner">
                   <p>お身体の状態によってご案内できる内容が変わります。まずはご相談ください。医師の許可を確認させていただく場合があります。</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-item__q" type="button" aria-expanded="false">
+                子供連れでも大丈夫ですか?
+                <span class="faq-item__mark" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__a">
+                <div class="faq-item__a-inner">
+                  <p>お子様連れでも大丈夫です。LINEにてご相談ください。</p>
+                </div>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-item__q" type="button" aria-expanded="false">
+                男性でも通えますか?
+                <span class="faq-item__mark" aria-hidden="true"></span>
+              </button>
+              <div class="faq-item__a">
+                <div class="faq-item__a-inner">
+                  <p>ご紹介のみとなります。</p>
                 </div>
               </div>
             </div>
@@ -309,8 +331,7 @@
             はじめての方は「体験希望」とひとことだけでも大丈夫です。
           </p>
           <div class="reserve__actions">
-            <!-- TODO: 公式LINEのURLに差し替え -->
-            <a class="btn-chip btn-chip--fill" href="#">LINEで予約する<span class="arrow" aria-hidden="true">→</span></a>
+            <a class="btn-chip btn-chip--fill" href="https://lin.ee/sLSB1WS" target="_blank" rel="noopener noreferrer">LINEで予約する<span class="arrow" aria-hidden="true">→</span></a>
             <a class="btn-chip" href="https://www.instagram.com/obpilates?igsi=MTN3ZWt2NDdsYTNzaQ==" target="_blank" rel="noopener noreferrer">
               <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" role="presentation">
                 <rect x="2.5" y="2.5" width="19" height="19" rx="5" />
@@ -322,13 +343,12 @@
           </div>
         </div>
         <dl class="reserve__info">
-          <!-- 以下は仮の情報です。確定後に差し替えてください -->
           <dt>Hours</dt>
-          <dd>9:00 – 20:00(最終受付 19:00)</dd>
+          <dd>10:00 – 17:00<br>営業時間以外は要相談</dd>
           <dt>Closed</dt>
           <dd>不定休</dd>
           <dt>Studio</dt>
-          <dd>完全プライベート空間(詳細はご予約時にご案内します)</dd>
+          <dd>泉佐野市下瓦屋(井原里駅徒歩5分)<br>駐車場完備</dd>
         </dl>
       </div>
     </section>

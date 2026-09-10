@@ -1,6 +1,6 @@
 /* Hallmark · genre: editorial · macrostructure: Split Studio · theme: studied-DNA (source: OB PILATES 料金表画像 — モノクロ・明朝・点線罫・チップラベル)
  * paper oklch(98% 0.004 95) · ink oklch(24% 0.01 80) charcoal · accent: monochrome
- * display: Shippori Mincho · body: Zen Kaku Gothic New · EN: Cormorant Garamond (英字見出し・ラベル・署名)
+ * display/body: Shippori Mincho(和文部) · EN: Bodoni Moda (欧字は全文これで統一。英字見出し・ラベル・署名はイタリック)
  * nav: N9 edge-aligned · footer: Ft6 letter-close · enrichment: 実写真3点 + Tier-B 手組みSVG (botanical sprig)
  * knobs: H2 ratio=7/5 right=photo divider=negative-space · F4 numbering=01/02/03 vertical connector=line · C1 rectangular spacious
  * contrast: pass (40–41) · slop: pass (42–45) · honest: pass (46) · chrome: pass (47) · tokens: pass (48) · responsive: pass (49) · mobile: pass (34, 49, 50–57)
@@ -73,7 +73,7 @@ a { color: inherit; }
 }
 .nav__wordmark-en {
   font-family: var(--font-outlier);
-  font-weight: 500;
+  font-weight: 400;
   font-size: var(--text-md);
   letter-spacing: 0.2em;
   white-space: nowrap;
@@ -133,7 +133,7 @@ a { color: inherit; }
 .head__en {
   font-family: var(--font-outlier);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: var(--text-head-en);
   line-height: 1.2;
   letter-spacing: 0.04em;
@@ -164,7 +164,7 @@ a { color: inherit; }
 .hero__title {
   font-family: var(--font-outlier);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: clamp(1.9rem, 3vw + 0.9rem, 3rem);
   line-height: 1.35;
   letter-spacing: 0.04em;
@@ -233,11 +233,16 @@ a { color: inherit; }
   height: auto;
   aspect-ratio: 3 / 4;
   object-fit: cover;
+  pointer-events: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 .photo figcaption {
   margin-top: var(--space-md);
   font-family: var(--font-outlier);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 0.72rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -329,7 +334,7 @@ a { color: inherit; }
 .steps .num {
   font-family: var(--font-outlier);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: var(--text-xl);
   color: var(--color-soft);
   line-height: 1.1;
@@ -382,7 +387,7 @@ a { color: inherit; }
 .chip {
   display: inline-block;
   font-family: var(--font-outlier);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 0.72rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -483,7 +488,7 @@ a { color: inherit; }
 .greeting__sign {
   font-family: var(--font-outlier);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: var(--text-lg);
   letter-spacing: 0.08em;
   margin-top: var(--space-lg);
@@ -578,7 +583,7 @@ a { color: inherit; }
 }
 .reserve__info dt {
   font-family: var(--font-outlier);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 0.72rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
@@ -611,7 +616,7 @@ a { color: inherit; }
 .foot__sign {
   font-family: var(--font-outlier);
   font-style: italic;
-  font-weight: 500;
+  font-weight: 400;
   font-size: var(--text-md);
   letter-spacing: 0.12em;
   margin-top: var(--space-md);

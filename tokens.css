@@ -1,5 +1,5 @@
 /* Hallmark · tokens — OB PILATES LP (v2 · 価格表準拠のモノクロ)
- * paper: warm white · ink: charcoal · chips: light grey · display: Shippori Mincho · body: Zen Kaku Gothic New · EN: Cormorant Garamond
+ * paper: warm white · ink: charcoal · chips: light grey · display/body: Shippori Mincho(和文部) · EN: Bodoni Moda (Vogue調ハイコントラスト・イタリック / 全文欧字はこれで統一)
  */
 :root {
   /* ─ colour ─ */
@@ -15,10 +15,10 @@
   --color-focus:     oklch(45% 0.13 258);
 
   /* ─ type ─ */
-  /* display = 和文明朝(見出し・価格) / body = 和文ゴシック / outlier = 欧文セリフ(英字見出し・ラベル・署名) */
+  /* display = 和文明朝(見出し・価格) / body = 本文(欧字はBodoni Moda・和文は明朝にフォールバック) / outlier = 欧文セリフ(英字見出し・ラベル・署名。ハイコントラストなイタリック) */
   --font-display: "Shippori Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
-  --font-body: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", sans-serif;
-  --font-outlier: "Cormorant Garamond", "Shippori Mincho", serif;
+  --font-body: "Bodoni Moda", "Shippori Mincho", "Hiragino Mincho ProN", serif;
+  --font-outlier: "Bodoni Moda", "Shippori Mincho", serif;
 
   --text-xs:   0.75rem;
   --text-sm:   0.85rem;
